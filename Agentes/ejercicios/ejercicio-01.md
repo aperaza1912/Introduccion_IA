@@ -106,15 +106,20 @@ python 06_learning_agent.py --episodes 1500 --config config/mi_cueva_4x4.yaml
 
 ## Entrega
 
-1. El archivo `config/mi_cueva_4x4.yaml`: Puedes consultar la configuración en [`mi_cueva_4x4.yaml`](../project/config/mi_cueva_4x4.yaml)
+1. El archivo `config/mi_cueva_4x4.yaml` - **Nota para el profesor**: El nuevo mapa se encuentra en el archivo [`mi_cueva_4x4.yaml`](../project/config/mi_cueva_4x4.yaml). ✅
 
-2. Un diagrama (dibujo o ASCII) de tu cueva, indicando agente, Wumpus, pits y oro.
-3. Un breve reporte (media página) que responda:
+2. Un diagrama (dibujo o ASCII) de tu cueva, indicando agente, Wumpus, pits y oro. - Abajo se muestra mi propuesta de diseño para el nuevo mundo de Wumpus: ✅
+
+![Diagrama de mi cueva](../images/wumpus_v2.png)
+
+
+3. Un breve reporte (media página) que responda: ✅
    - ¿Qué agentes lograron salir con el oro en tu mapa y cuáles no?
    - ¿Por qué el **agente de reflejo simple** falla (o tiene suerte) en tu diseño?
    - ¿Cómo cambia el resultado del **agente basado en modelo** si acercas o alejas
      un pit de la casilla inicial?
-4. Evidencias (captura de pantalla) de haber corrido los 4 agentes con tus nueva configuración del mundo.
+4. Evidencias (captura de pantalla) de haber corrido los 4 agentes con tus nueva configuración del mundo. ✅ **Nota:** El reporte y las evidencias pueden encontrarse en [Reporte y Evidencias (PDF)](<../PDFs/Reporte y Evidencias Ejercicio 01.pdf>)
+
 
 ## Reto opcional
 
