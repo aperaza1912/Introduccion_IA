@@ -1,0 +1,21 @@
+# Larger cave. Safe corridor along the bottom and left; gold in the north.
+
+grid:
+  width: 4
+  height: 4
+
+agent:
+  start: [1, 1]
+  direction: east
+  arrows: 1
+
+wumpus: [3, 3]
+
+pits:
+  - [1, 4]
+  - [3, 2]
+  - [4, 1]
+
+gold: [2, 4]
+
+max_steps: 300

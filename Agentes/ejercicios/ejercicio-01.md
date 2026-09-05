@@ -106,7 +106,8 @@ python 06_learning_agent.py --episodes 1500 --config config/mi_cueva_4x4.yaml
 
 ## Entrega
 
-1. El archivo `config/mi_cueva_4x4.yaml`.
+1. El archivo `config/mi_cueva_4x4.yaml`: Puedes consultar la configuración en [`mi_cueva_4x4.yaml`](../project/config/mi_cueva_4x4.yaml)
+
 2. Un diagrama (dibujo o ASCII) de tu cueva, indicando agente, Wumpus, pits y oro.
 3. Un breve reporte (media página) que responda:
    - ¿Qué agentes lograron salir con el oro en tu mapa y cuáles no?
