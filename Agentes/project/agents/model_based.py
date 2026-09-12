@@ -26,7 +26,7 @@ class ModelBasedAgent(Agent):
     def act(self, percept: Percept) -> Action:
         self.model.integrate(percept, self._last_action)
         action = self._choose(percept)
-        self._last_action = action
+        self._last_action = action # alan
         return action
 
     def _choose(self, percept: Percept) -> Action:

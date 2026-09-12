@@ -2,7 +2,7 @@
 
 ## Contexto
 
-En el proyecto `Búsqueda no informada/project` (AIMA cap. 3, Figura 3.2) se
+En el proyecto `Búsqueda no informada/project` (AIMA cap. 3, Figura 3.1) se
 resuelve el problema de **encontrar una ruta** entre dos ciudades del mapa
 carretero de Rumania. Cinco algoritmos de búsqueda **no informada** comparten
 el mismo grafo y el mismo `RouteFindingProblem`:
@@ -22,10 +22,12 @@ ejecutar los cinco métodos y **explicar** por qué coinciden o discrepan.
 Los vecinos se expanden en **orden alfabético**, así que los resultados son
 deterministas si usas la misma pareja de ciudades.
 
-## Objetivo
+## Objetivo ✅
 
 Elegir una ruta distinta de Arad → Bucharest, correr BFS, UCS, DFS, DLS e IDS,
 y analizar diferencias de camino, costo, profundidad y nodos expandidos.
+
+**Respuesta**: Elegiré Eforie-Oradea para mi análisis. Justificación: se tiene que recorrer básicamente todo el grafo, y es bueno para comparar costos de distancia y de pasos.
 
 ## Archivos a crear / modificar
 
@@ -36,14 +38,11 @@ Trabaja solo con los scripts `02`–`06` y los flags `--from-city` y `--to`
 
 ## Requisitos de la instancia
 
-1. Elige un origen y un destino **distintos** de la pareja por defecto
-   (`Arad`, `Bucharest`). Ambos deben existir en el mapa (ver
-   `01_romania_map.py` o `romania/map.py`).
+1. Elige un origen y un destino **distintos** de la pareja por defecto (`Arad`, `Bucharest`). Ambos deben existir en el mapa (ver `01_romania_map.py` o `romania/map.py`). ✅
 2. Debe existir **al menos un camino** entre ellos (el grafo no está
    completamente conectado: por ejemplo, Neamt solo llega vía Iasi).
 3. Usa la **misma** pareja origen–destino en los cinco algoritmos.
-4. Para DLS, prueba **al menos dos** valores de `--limit`: uno que produzca
-   `cutoff` y otro que encuentre solución (si existe a esa profundidad).
+4. Para DLS, prueba **al menos dos** valores de `--limit`: uno que produzca `cutoff` y otro que encuentre solución (si existe a esa profundidad). 👁️
 
 ### Parejas sugeridas (elige una o inventa la tuya)
 
@@ -71,6 +70,8 @@ python 01_romania_map.py --from-city Timisoara
 ```
 
 3. Ejecuta los cinco algoritmos con tu pareja (sustituye origen y destino):
+
+   Eforie-Oradea
 
 ```bash
 python 02_breadth_first_search.py --from-city ORIGEN --to DESTINO
