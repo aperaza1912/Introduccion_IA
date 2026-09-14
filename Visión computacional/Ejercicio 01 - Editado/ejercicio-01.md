@@ -106,7 +106,7 @@ No modifiques la notebook original del repositorio.
 
 Puede encontrar la notebook usada para el ejercicio en el siguiente enlace: <https://colab.research.google.com/drive/1S811-SKFfTTD0J7xZaLrAPdghRYVB16e?usp=sharing>
 
-También puede verlo en: ![Ejercicio 01 - Alan Peraza](<Visión computacional\Ejercicio 01 - Editado\AlanPeraza_13_YOLO_ultralytics.ipynb>)
+También puede verlo localmente en: [Ejercicio 01 - Alan Peraza - Notebook](<Visión computacional/Ejercicio 01 - Editado/AlanPeraza_13_YOLO_ultralytics.ipynb>)
 
 1. Capturas: salida sobre `zidane.jpg`, sobre `bus.jpg` y sobre **tu**
    foto.
