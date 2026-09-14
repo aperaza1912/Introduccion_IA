@@ -106,21 +106,23 @@ No modifiques la notebook original del repositorio.
 
 Puede encontrar la notebook usada para el ejercicio en el siguiente enlace: <https://colab.research.google.com/drive/1S811-SKFfTTD0J7xZaLrAPdghRYVB16e?usp=sharing>
 
+También puede verlo en: ![Ejercicio 01 - Alan Peraza](<Visión computacional\Ejercicio 01 - Editado\AlanPeraza_13_YOLO_ultralytics.ipynb>)
+
 1. Capturas: salida sobre `zidane.jpg`, sobre `bus.jpg` y sobre **tu**
    foto.
 
 - Captura Zidane:&#x20;
 
-  ![](assets/image-20260913-175836.png)
+  ![Zidane](Evidencias/zidane.jpg)
 - Captura Bus:
 
-  ![](assets/image-20260913-175907.png)
+  ![Bus](Evidencias/bus.jpg)
 - Captura mi foto:
 
-  ![](assets/image-20260913-175940.png)
+  ![Mi foto](<Evidencias/mi_foto - resultado.jpg>)
 - Captura mi foto - versión reto:&#x20;
 
-  ![](assets/image-20260913-175956.png)
+   ![Mi foto - reto](<Evidencias/mi_foto - resultado.jpg>)
 
 1. Un breve reporte (media página) que responda:
    - ¿Qué clases detectó YOLO en las fotos de Ultralytics y cuáles en la
@@ -140,7 +142,7 @@ Las predicciones de CLI y la de model, no coinciden con la imagen, a excepción 
 1. Evidencia de haber ejecutado en Colab (captura del entorno o del menú
    Runtime, idealmente con GPU).
 
-![](assets/image-20260913-180203.png)
+![Evidencia](Evidencias/EvidenciaColab.png)
 
 ## Reto opcional
 
@@ -158,11 +160,10 @@ Las predicciones de CLI y la de model, no coinciden con la imagen, a excepción 
 
 Usando un umbral más estricto, el modelo etiquetó dos objetos: una persona y una *oveja*. Todo lo demás desapareció. Al cambiar sólo el modelo de la predicción CLI a [yolov8s.pt](http://yolov8s.pt) (sin reentrenarlo), el modelo detectó 1 nueva clase: pájaros. 
 
-![](assets/image-20260913-183856.png)
-
+![Evidencia](Evidencias/Reto_02.png)
 Al entrenar con un video (incluido en los archivos del Colab, nombre “playa.mp4”), YOLO reconoce la palmera como “pájaro” en todos los frames, básicamente.
 
-![](assets/image-20260913-184042.png)
+![Evidencia](Evidencias/Playa.png)
 
 ## Pistas
 
