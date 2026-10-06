@@ -1,0 +1,16 @@
+# Entornos virtuales
+venv/
+env/
+
+# Variables de entorno
+.env
+
+# Base de datos vectorial local (ChromaDB)
+chroma/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema operativo
+.DS_Store
